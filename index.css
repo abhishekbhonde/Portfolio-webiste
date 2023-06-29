@@ -1,0 +1,351 @@
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  *{
+    background-color: #11071F;
+  }
+body{
+    
+    animation: 2s ease-out 0s 1 slideInFromLeft;
+    transition-delay: 4s;
+}
+
+
+.header{
+    position: relative;
+    display: inline-flex;
+    height: 60px;
+    width: 1475px;
+    background-color: #1A0B2E;
+    text-align: center;
+}
+p {
+    color: white;   
+    margin-left: 300px;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Preahvihear', sans-serif;
+
+}
+.href{
+    align-self: center;
+}
+.container{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 70px;
+}
+.profile-img{
+    height: 300px;
+    width: 230px;
+    margin-left: 400px;
+    margin-top: 100px;
+    /* background-image: radial-gradient(#FFFFFF,#FFFFFF,#434343); */
+    transition-duration: 1s;
+
+}
+.profile-img:hover{
+    transform: scale(1.1);
+}
+#name{
+    margin-top: -250px;
+    margin-left: 690px;
+    font-family: 'Preahvihear', sans-serif;
+    background-color: transparent;
+
+    
+}
+
+#name span{
+    color: #7127BA;
+    background-color: transparent;
+
+
+}
+.headline{
+    color: white;
+    font-family: 'Preahvihear', sans-serif;
+    margin-left: 700px;
+    font-size: 38px;
+
+
+    
+}
+#Position{
+    font-size: 20px;
+   
+    position: absolute;
+    margin-left: 20px;
+    background-color: transparent;
+
+}
+#open-source{
+    position: absolute;
+   margin-top: -20px;
+   color: #7127BA;
+   margin-top: -60px;
+   margin-left: 20px;
+   background-color: transparent;
+
+
+}
+#open-source1{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 20px;
+    background-color: transparent;
+
+}
+#tagline{
+    position: relative;
+    margin-left: 725px;
+    margin-top: -35px;
+    font-size: 10px;
+    background-color: transparent;
+
+}
+#Description1{
+    margin-top: 70px;
+    margin-left: 500px;
+    font-size: 38px;
+    background-color: transparent;
+
+}
+#current{
+    margin-left: 500px;
+    margin-top: -50px;
+    font-size: 15px;
+    background-color: transparent;
+
+}
+#college-name{
+    color: orange;
+    background-color: transparent;
+
+}
+#Description2{
+    margin-left: 500px;
+    margin-top: 50px;
+    font-size:15px ;
+    background-color: transparent;
+
+}
+
+#work{
+    margin-left: 500px;
+    position: relative;
+    font-size: 27px;
+    background-image: none;
+    margin-top: 150px;
+    background-color: transparent;
+    
+
+    
+}
+.work-experience{ 
+    display: inline-block; 
+    flex-direction: row;
+ } 
+ .cards{ 
+    height: 150px;
+     width: 500px; 
+     position: relative; 
+     margin-top: 50px; 
+     margin-left: 200px; 
+     margin-right: auto; 
+     transition-duration: 1s;
+     box-shadow: 0px 0px 10px 1px  purple;
+
+     background-image: linear-gradient(to right, #130428,#1b0a34,#261045);
+     }
+     .cards2{ 
+        height: 150px;
+         width: 500px; 
+         position: absolute; 
+         margin-top: -350px;
+         margin-left: 750px; 
+         box-shadow: 0px 0px 10px 1px  purple;
+         transition-duration: 1s;
+
+         background-image: linear-gradient(to right, #130428,#1b0a34,#261045);
+}
+.cards3{ 
+    height: 150px;
+     width: 500px; 
+     position: absolute; 
+     margin-top: -150px;
+     margin-left: 750px; 
+     transition-duration: 1s;
+    box-shadow: 0px 0px 10px 1px  purple;
+     background-image: linear-gradient(to right, #130428,#1b0a34,#261045);
+}
+.cards:hover{
+    transform: scale(1.1);
+}
+.cards2:hover{
+    transform: scale(1.1);
+}
+.cards3:hover{
+    transform: scale(1.1);
+}
+.webd{
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: transparent;
+
+}
+#web-text{
+    background-color: transparent;
+    text-align: center;
+    margin-left: 130px;  
+    position: absolute;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+#Description-web{
+    font-size: 10px;
+    margin-left: 130px;
+    margin-top:60px;
+    position: absolute;
+    background-color: transparent;
+}
+#web-decripton1{
+    margin-top: -5px;
+    position: absolute;
+    background-color: transparent;
+}
+.project1{
+    background-color: #261045;
+    color: white;
+    margin-left: 150px;
+    margin-top: 100px;
+    height: 30px;
+    font-size: 15px;
+    width: 110px;
+    border-radius: 10px;
+    border: 1px solid purple;
+    cursor: pointer;
+}
+#Description-skills{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 500px;
+    font-size: 22px;
+}
+.skills{
+    display: flex;
+    text-align: center;
+    
+}
+
+#Description-skills span{
+    color: #7127BA;
+}
+#Description-skills1{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 500px;
+    font-size: 15px;
+}
+.skills-icons{
+    display: flex;
+    height: 100px;
+    width: 400px;
+    gap: 20px;
+    margin-top: 270px;
+    margin-left: 570px;
+    
+}
+.skills-img{
+    height: 35px;
+    width: 33px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 300px;
+    border-radius: 50%;
+    background-color:#261045 ;
+    transition-duration: 1s;
+    box-shadow: 0px 0px 10px 1px  purple;
+    
+}
+.circle:hover{
+    transform: scale(1.5);
+}
+.circle1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 300px;
+    border-radius: 50%;
+    background-color:#261045 ;
+    transition-duration: 1s;
+    margin-top: -250px;
+    box-shadow: 0px 0px 10px 1px  purple;
+}
+.circle1:hover{
+    transform: scale(1.5);
+}
+.skills-img-mongodb{
+    background-color: transparent;
+}
+.skills-img-next{
+    background-color: transparent;
+}
+.skills-img-express{
+    background-color: transparent;
+}
+.resume-card{
+    height: 150px;
+     width: 500px; 
+     position: absolute; 
+     margin-top: -200px; 
+     margin-left: 520px; 
+     margin-right: auto; 
+     
+     box-shadow: 0px 0px 20px 2px  purple;
+     background-image: linear-gradient(to right, #130428,#1b0a34,#261045);
+}
+#Resume-text{
+    background-color: transparent;
+    text-align: center;
+    margin-left: 150px;  
+    position: absolute;
+    font-size: 23px;
+    margin-top: 20px;
+
+}
+.resume-button{
+    background-color: #261045;
+    color: aqua;
+    margin-left: 180px;
+    margin-top: 80px;
+    height: 40px;
+    font-size: 15px;
+    width: 140px;
+    transition-duration: 1s;
+    border-radius: 10px;
+    border: 1px solid purple;
+    cursor: pointer;
+    background-image: linear-gradient(to right,#220A43, #7F3FD7);
+    box-shadow: 0px 0px 10px 2px aqua;
+}
+.resume-button:hover{
+    transform: scale(1.1);
+}
